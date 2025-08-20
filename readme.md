@@ -19,7 +19,7 @@ Suite complète d'outils de cybersécurité WiFi conçue pour l'analyse, la vali
 ---
 
 ## Structure du projet
-
+```
 WiFiCyberTools/
 ├── cybertools.sh             # Script principal et menu interactif
 ├── install.sh                # Script d'installation automatique
@@ -43,7 +43,7 @@ WiFiCyberTools/
 │   ├── wordlists/            # Wordlists (à compléter)
 │   └── results/              # Résultats des attaques
 └── logs/                     # Logs d'exécution et diagnostics
-
+```
 ---
 
 ## Installation
