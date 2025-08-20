@@ -19,31 +19,31 @@ Suite complète d'outils de cybersécurité WiFi conçue pour l'analyse, la vali
 ---
 
 ## Structure du projet
-
+```
 WiFiCyberTools/
-├── cybertools.sh # Script principal et menu interactif
-├── install.sh # Script d'installation automatique
-├── README.md # Documentation
+├── cybertools.sh             # Script principal et menu interactif
+├── install.sh                # Script d'installation automatique
+├── README.md                 # Documentation
 ├── config/
-│   ├── settings.conf # Configuration générale (IPs, dossiers, paramètres)
-│   └── wordlists.conf # URLs de wordlists populaires
+│   ├── settings.conf         # Configuration générale (IPs, dossiers, paramètres)
+│   └── wordlists.conf        # URLs de wordlists populaires
 ├── modules/
-│   ├── installer.sh # Installation des outils système
-│   ├── ssh_manager.sh # Gestion des clés SSH Pwnagotchi
-│   ├── pcap_checker.sh # Vérification des fichiers PCAP
-│   ├── pwnagotchi_sync.sh # Synchronisation avec Pwnagotchi
-│   ├── handshake_validator.sh # Validation & conversion des handshakes
-│   ├── pcap_cleaner.sh # Nettoyage des captures invalides
-│   ├── hashcat_runner.sh # Gestion des attaques Hashcat
-│   ├── wordlist_manager.sh # Gestion des wordlists (en développement)
-│   └── results_viewer.sh # Visualisation des résultats des attaques
+│   ├── installer.sh          # Installation des outils système
+│   ├── ssh_manager.sh        # Gestion des clés SSH Pwnagotchi
+│   ├── pcap_checker.sh       # Vérification des fichiers PCAP
+│   ├── pwnagotchi_sync.sh    # Synchronisation avec Pwnagotchi
+│   ├── handshake_validator.sh# Validation & conversion des handshakes
+│   ├── pcap_cleaner.sh       # Nettoyage des captures invalides
+│   ├── hashcat_runner.sh     # Gestion des attaques Hashcat
+│   ├── wordlist_manager.sh   # Gestion des wordlists (en développement)
+│   └── results_viewer.sh     # Visualisation des résultats des attaques
 ├── data/
-│   ├── captures/ # Captures PCAP synchronisées
-│   ├── converted/ # Fichiers convertis (.hc22000)
-│   ├── wordlists/ # Wordlists (à compléter)
-│   └── results/ # Résultats des attaques
-└── logs/ # Logs d'exécution et diagnostics
-
+│   ├── captures/             # Captures PCAP synchronisées
+│   ├── converted/            # Fichiers convertis (.hc22000)
+│   ├── wordlists/            # Wordlists (à compléter)
+│   └── results/              # Résultats des attaques
+└── logs/                     # Logs d'exécution et diagnostics
+```
 ---
 
 ## Installation
