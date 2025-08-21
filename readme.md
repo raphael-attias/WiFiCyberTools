@@ -94,6 +94,11 @@ Prise en charge des GPUs NVIDIA avec gestion de la température et optimisation.
 
 WiFiCyberTools propose une architecture claire et évolutive pour toutes les phases du pentest WiFi : collecte, validation, conversion, attaque, et analyse des résultats.
 
+
+---
+
+☕️ Si ce projet vous est utile ou vous plaît, vous pouvez me soutenir ici : [buymeacoffee.com/rapatt](https://buymeacoffee.com/rapatt)
+
 ---
 
 Restez connecté, restez sécurisé !
